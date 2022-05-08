@@ -43,7 +43,7 @@
         "SNAPSHOT": "API",
         "MQTT_DTOPIC": "homeassistant",
         "ENABLE_AUDIO": false,
-		"freetext environmental options": {
+		"freetext_environmental_options": {
 		}
     },
     "schema": {
