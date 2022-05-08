@@ -4,7 +4,7 @@
     "slug": "docker-wyze-bridge",
     "url": "http://github.com/bittles/docker-wyze-bridge-fork-low/",
     "image": "mrlt8/wyze-bridge",
-    "version": "1.4.1",
+    "version": "1.4.1a",
     "arch": [
         "armv7",
         "aarch64",
@@ -42,7 +42,9 @@
         "NET_MODE": "ANY",
         "SNAPSHOT": "API",
         "MQTT_DTOPIC": "homeassistant",
-        "ENABLE_AUDIO": false
+        "ENABLE_AUDIO": false,
+		"freetext environmental options": {
+		}
     },
     "schema": {
         "WYZE_EMAIL": "email",
