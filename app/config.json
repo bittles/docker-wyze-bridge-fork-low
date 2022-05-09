@@ -42,7 +42,7 @@
         "NET_MODE": "ANY",
         "SNAPSHOT": "API",
         "MQTT_DTOPIC": "homeassistant",
-        "ENABLE_AUDIO": false
+        "ENABLE_AUDIO": true
     },
     "schema": {
         "WYZE_EMAIL": "email",
@@ -52,7 +52,7 @@
         "IMG_TYPE": "list(jpg|png)?",
         "IMG_DIR": "str?",
         "ENABLE_AUDIO": "bool?",
-        "AUDIO_CODEC": "list(COPY|AAC|MP3|LIBOPUS)?",
+        "AUDIO_CODEC": "list(COPY|AAC|MP3|LIBOPUS|libfdk-aac)?",
         "AUDIO_FILTER": "str?",
         "RECORD_ALL": "bool?",
         "RECORD_LENGTH": "int?",
@@ -81,8 +81,8 @@
         "IGNORE_RES": "int?",
         "KEEP_BAD_FRAMES": "bool?",
         "FPS_FIX": "bool?",
-		"FORCE_FPS_{CAM_NAME}": "int?",
-		"FORCE_FPS_BACK_DECK_CAM": "int?",
+	"FORCE_FPS_{CAM_NAME}": "int?",
+	"FORCE_FPS_BACK_DECK_CAM": "int?",
         "WEBRTC": "bool?"
     }
 }
