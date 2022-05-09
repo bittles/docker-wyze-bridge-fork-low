@@ -42,9 +42,7 @@
         "NET_MODE": "ANY",
         "SNAPSHOT": "API",
         "MQTT_DTOPIC": "homeassistant",
-        "ENABLE_AUDIO": false,
-		"freetext_environmental_options": {
-		}
+        "ENABLE_AUDIO": false
     },
     "schema": {
         "WYZE_EMAIL": "email",
@@ -85,7 +83,6 @@
         "FPS_FIX": "bool?",
 		"FORCE_FPS_{CAM_NAME}": "int?",
 		"FORCE_FPS_BACK_DECK_CAM": "int?",
-        "WEBRTC": "bool?",
-        "freetext_environmental_options": ["str?"]
+        "WEBRTC": "bool?"
     }
 }
