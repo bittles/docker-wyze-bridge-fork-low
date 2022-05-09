@@ -85,6 +85,7 @@
         "FPS_FIX": "bool?",
 		"FORCE_FPS_{CAM_NAME}": "int?",
 		"FORCE_FPS_BACK_DECK_CAM": "int?",
-        "WEBRTC": "bool?"
+        "WEBRTC": "bool?",
+        "freetext_environmental_options": ["str?"]
     }
 }
