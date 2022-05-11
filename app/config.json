@@ -4,7 +4,7 @@
     "slug": "docker-wyze-bridge",
     "url": "http://github.com/bittles/docker-wyze-bridge-fork-low/",
     "image": "mrlt8/wyze-bridge",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "arch": [
         "armv7",
         "aarch64",
