@@ -1,7 +1,7 @@
 {
     "name": "Docker Wyze Bridge Fork Low Qual",
     "description": "RTMP/RTSP/HLS bridge for Wyze cams in a docker container",
-    "slug": "docker-wyze-bridge",
+    "slug": "docker-wyze-bridge-fork-low",
     "url": "http://github.com/bittles/docker-wyze-bridge-fork-low/",
     "image": "mrlt8/wyze-bridge",
     "version": "1.4.4",
